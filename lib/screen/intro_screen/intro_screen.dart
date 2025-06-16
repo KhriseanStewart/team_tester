@@ -11,7 +11,7 @@ class IntroScreen extends StatelessWidget {
           Container(
             color: Colors.blue,
             child: Image.asset("assets/intro_image1.jpg", fit: BoxFit.cover),
-          
+          ),
         ],
       ),
     );
