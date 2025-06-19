@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//TODO: Add this to GITHUB components
 class ExpandableText extends StatefulWidget {
   final String text;
   final int trimLines;
