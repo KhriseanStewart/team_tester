@@ -34,14 +34,13 @@ class _TextfieldState extends State<Textfield> {
       obscureText: widget.obscuretext ?? false,
       decoration: InputDecoration(
         hintText: widget.textlabel,
-        // label: Center(child: Text(textlabel)),
         prefixIcon: widget.texticon,
         hintStyle: TextStyle(color: Colors.black),
         prefixIconColor: Colors.black,
         suffixIcon: widget.iconbutton,
         border: OutlineInputBorder(
           borderSide: BorderSide(color: Colors.white),
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(15),
         ),
       ),
       onChanged: widget.onchange,

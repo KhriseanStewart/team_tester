@@ -36,6 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.8
   salomon_bottom_bar: ^3.3.2
   feather_icons: ^1.2.0
+  flutter_colorpicker: ^1.1.0
+  file_picker: ^10.2.0
+  uuid: ^4.5.1
 
 dev_dependencies:
   flutter_test:

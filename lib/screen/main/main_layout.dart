@@ -1,4 +1,5 @@
 import 'package:car_wash_app/screen/job_list_screen/job_list.dart';
+import 'package:car_wash_app/screen/profile/profile_screen.dart';
 import 'package:car_wash_app/screen/washer_management/washer_man.dart';
 import 'package:flutter/material.dart';
 import 'package:salomon_bottom_bar/salomon_bottom_bar.dart';
@@ -13,7 +14,7 @@ class MainLayout extends StatefulWidget {
 
 int _currentIndex = 0;
 
-List<Widget> _screens = [JobList(), WasherManagement()];
+List<Widget> _screens = [JobList(), WasherManagement(), ProfileScreen()];
 
 class _MainLayoutState extends State<MainLayout> {
   void onTapped(int index) {

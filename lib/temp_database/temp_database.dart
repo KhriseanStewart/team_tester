@@ -1,3 +1,5 @@
+import 'package:uuid/uuid.dart';
+
 List<Map<String, dynamic>> customerDetails = [
   {
     'name': 'Khrisean Stewart',
@@ -48,4 +50,9 @@ List<Map<String, dynamic>> customerDetails = [
     'paid_stat': 'false',
   },
 ];
-List<String> database = [];
+var uuid = Uuid();
+
+List<Map<String, dynamic>> washerManagement = [
+  {'name': 'pam', 'uuid': uuid.v1()},
+  {'name': 'Rick', 'uuid': uuid.v1()},
+];
